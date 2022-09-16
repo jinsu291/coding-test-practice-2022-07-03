@@ -1,8 +1,8 @@
-package lecture.A01_알고리즘;
+package lecture.A01_String;
 
 import java.util.Scanner;
 
-class Main1 {
+class Main101 {
     public int solution(String str, char t) {
         int answer = 0;
         str = str.toUpperCase();
@@ -19,7 +19,7 @@ class Main1 {
     }
 
     public static void main(String[] args) {
-        Main1 T = new Main1();
+        Main101 T = new Main101();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         char c = kb.next().charAt(0);
