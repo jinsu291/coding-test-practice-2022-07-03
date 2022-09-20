@@ -2,21 +2,21 @@ package lecture.A01_String;
 
 import java.util.Scanner;
 
-public class Main201 {
+public class AMain202 {
     public String solution(String str){
         String answer = "";
         for(char x : str.toCharArray()){
-            if(Character.isLowerCase(x)){
-                answer += Character.toUpperCase(x);
+            if(x>=97 && x<=122){
+                answer += (char)(x-32);
             }
-            else answer += Character.toLowerCase(x);
+            else answer += (char)(x+32);
         }
         return answer;
     }
 
 
     public static void main(String[] args) {
-        Main201 T = new Main201();
+        AMain202 T = new AMain202();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));

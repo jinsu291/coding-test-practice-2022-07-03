@@ -2,7 +2,7 @@ package lecture.A01_String;
 
 import java.util.Scanner;
 // 다시 보기!!
-public class Main301 {
+public class AMain301 {
     public String solution(String str){
     String answer = "";
     int m = Integer.MIN_VALUE;
@@ -18,7 +18,7 @@ public class Main301 {
     }
 
     public static void main(String[] args) {
-        Main301 T = new Main301();
+        AMain301 T = new AMain301();
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
         System.out.println(T.solution(str));

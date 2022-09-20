@@ -2,7 +2,7 @@ package lecture.A01_String;
 
 import java.util.Scanner;
 // 어려움 다시보기!!
-public class Main501 {
+public class AMain501 {
     public String solution(String str) {
         String answer;
         char[] s = str.toCharArray();
@@ -23,7 +23,7 @@ public class Main501 {
     }
 
     public static void main(String[] args) {
-        Main501 T = new Main501();
+        AMain501 T = new AMain501();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));

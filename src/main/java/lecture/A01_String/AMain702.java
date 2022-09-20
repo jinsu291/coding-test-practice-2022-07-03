@@ -3,19 +3,18 @@ package lecture.A01_String;
 import java.util.Scanner;
 
 // 다시보기!!
-public class Main601 {
+public class AMain702 {
     public String solution(String str) {
-        String answer ="";
-        for(int i = 0; i < str.length(); i++ ){
-            if(str.indexOf(str.charAt(i)) == i){
-                answer += str.charAt(i);
-            }
+        String answer ="NO";
+        String tmp = new StringBuilder(str).reverse().toString();
+        if(str.equalsIgnoreCase(tmp)){
+            answer = "YES";
         }
-        return answer;
+        return  answer;
     }
 
     public static void main(String[] args) {
-        Main601 T = new Main601();
+        AMain702 T = new AMain702();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));

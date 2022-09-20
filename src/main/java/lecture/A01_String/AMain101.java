@@ -2,7 +2,7 @@ package lecture.A01_String;
 
 import java.util.Scanner;
 
-class Main101 {
+class AMain101 {
     public int solution(String str, char t) {
         int answer = 0;
         str = str.toUpperCase();
@@ -19,7 +19,7 @@ class Main101 {
     }
 
     public static void main(String[] args) {
-        Main101 T = new Main101();
+        AMain101 T = new AMain101();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         char c = kb.next().charAt(0);

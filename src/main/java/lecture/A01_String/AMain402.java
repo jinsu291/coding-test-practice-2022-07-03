@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 // 어려움 다시보기!!
-public class Main402 {
+public class AMain402 {
     public ArrayList<String> solution(int n, String[] str){
         ArrayList<String> answer = new ArrayList<>();
         for(String x : str){
@@ -24,7 +24,7 @@ public class Main402 {
     }
 
     public static void main(String[] args) {
-        Main402 T = new Main402();
+        AMain402 T = new AMain402();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         String[] str = new String[n];
