@@ -34,7 +34,7 @@ public class AMain1001 {
         String str = kb.next();
         char c = kb.next().charAt(0);
         for (int x : T.solution(str, c)){
-            System.out.println(x + " ");
+            System.out.print(x + " ");
         }
     }
 }
