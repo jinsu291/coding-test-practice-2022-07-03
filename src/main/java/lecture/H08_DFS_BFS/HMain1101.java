@@ -1,13 +1,13 @@
 package lecture.H08_DFS_BFS;
 
 import java.util.*;
-class Point{
-    public int x, y;
-    Point(int x, int y){
-        this.x=x;
-        this.y=y;
-    }
-}
+//class Point{
+//    public int x, y;
+//    Point(int x, int y){
+//        this.x=x;
+//        this.y=y;
+//    }
+//}
 class HMain1101 {
     static int[] dx={-1, 0, 1, 0};
     static int[] dy={0, 1, 0, -1};
