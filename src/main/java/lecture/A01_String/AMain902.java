@@ -2,7 +2,7 @@ package lecture.A01_String;
 
 import java.util.Scanner;
 
-// 다시보기!!
+//o
 public class AMain902 {
     public int solution(String s) {
         int answer = 0;

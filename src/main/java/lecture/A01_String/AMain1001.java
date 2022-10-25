@@ -2,7 +2,7 @@ package lecture.A01_String;
 
 import java.util.Scanner;
 
-// 다시보기!!
+//o
 public class AMain1001 {
     public int[] solution(String s, char t) {
         int[] answer = new int[s.length()];

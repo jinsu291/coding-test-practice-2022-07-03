@@ -2,7 +2,7 @@ package lecture.A01_String;
 
 import java.util.Scanner;
 
-// 다시보기!!
+//o
 public class AMain702 {
     public String solution(String str) {
         String answer ="NO";
