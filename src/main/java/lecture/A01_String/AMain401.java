@@ -2,7 +2,7 @@ package lecture.A01_String;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-// 어려움 다시보기!!
+//o
 public class AMain401 {
     public ArrayList<String> solution(int n, String[] str){
         ArrayList<String> answer = new ArrayList<>();

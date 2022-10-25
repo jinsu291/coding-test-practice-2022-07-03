@@ -1,7 +1,7 @@
 package lecture.A01_String;
 
 import java.util.Scanner;
-// 어려움 다시보기!!
+//o
 public class AMain501 {
     public String solution(String str) {
         String answer;
