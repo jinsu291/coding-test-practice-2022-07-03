@@ -1,8 +1,8 @@
 package lecture.C03_Two_pointers_Sliding_window;
 
 import java.util.Scanner;
-
-// 어려움 다시보기!!
+//★
+//ㅇ
 public class CMain501 {
     public int solution(int n){
         int answer = 0, sum = 0;
@@ -12,7 +12,7 @@ public class CMain501 {
             arr[i] = i + 1;
         }
         int lt = 0;
-        for(int rt = 0; rt < m; rt ++){
+        for(int rt = 0; rt < m; rt++){
             sum += arr[rt];
             if(sum == n ) {
                 answer++;

@@ -2,7 +2,7 @@ package lecture.C03_Two_pointers_Sliding_window;
 
 import java.util.Scanner;
 
-// 어려움 다시보기!!
+//o
 public class CMain401 {
     public int solution(int n, int m, int[] arr){
         int answer = 0, sum = 0, lt = 0;

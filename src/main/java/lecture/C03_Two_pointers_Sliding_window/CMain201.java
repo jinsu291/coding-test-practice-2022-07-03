@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// 어려움 다시보기!!
+//o
 public class CMain201 {
     public ArrayList<Integer> solution(int n, int m, int[] a, int[] b){
         ArrayList<Integer> answer = new ArrayList<>();

@@ -3,7 +3,7 @@ package lecture.C03_Two_pointers_Sliding_window;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// 어려움 다시보기!!
+//o
 public class CMain101 {
     public ArrayList<Integer> solution(int n, int m, int[] a, int[] b){
         ArrayList<Integer> answer = new ArrayList<>();

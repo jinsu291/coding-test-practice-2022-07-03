@@ -1,8 +1,8 @@
 package lecture.C03_Two_pointers_Sliding_window;
 
 import java.util.Scanner;
-
-// 어려움 다시보기!!
+//★
+//ㅇ
 public class CMain502 {
     public int solution(int n){
         int answer = 0, cnt = 1;

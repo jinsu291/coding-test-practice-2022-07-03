@@ -2,7 +2,7 @@ package lecture.B02_Array;
 
 import java.util.Scanner;
 
-// 어려움 다시보기!!
+//o
 public class BMain402 {
     public void solution(int n){
         int a = 1, b = 1, c;

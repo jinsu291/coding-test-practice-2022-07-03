@@ -2,7 +2,7 @@ package lecture.B02_Array;
 
 import java.util.Scanner;
 
-// 어려움 다시보기!!
+//o
 public class BMain301 {
     public String solution(int n, int[] a, int[] b){
         String answer = "";

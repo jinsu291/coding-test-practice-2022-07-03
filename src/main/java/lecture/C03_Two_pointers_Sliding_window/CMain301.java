@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// 어려움 다시보기!!
+//o
 public class CMain301 {
     public int solution(int n, int k, int[] arr){
         int answer, sum = 0;
