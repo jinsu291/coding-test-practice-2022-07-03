@@ -3,8 +3,8 @@ package lecture.D04_HashMap_HashSet_TreeSet;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
-
-// 어려움 다시보기!!
+//★
+//
 public class DMain301 {
     public ArrayList<Integer> solution(int n, int k, int[] arr){
         ArrayList<Integer> answer = new ArrayList<>();
@@ -12,7 +12,7 @@ public class DMain301 {
         for(int i = 0; i < k - 1; i++){
             HM.put(arr[i], HM.getOrDefault(arr[i], 0)+1);
         }
-        int lt=0;
+        int lt = 0;
         for(int rt = k-1; rt < n; rt++){
             HM.put(arr[rt], HM.getOrDefault(arr[rt], 0)+1);
             answer.add(HM.size());

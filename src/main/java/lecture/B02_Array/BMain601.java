@@ -2,8 +2,8 @@ package lecture.B02_Array;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
-// 어려움 다시보기!!
+//★
+//ㅇ
 public class BMain601 {
 
     private boolean isPrime(int num) {

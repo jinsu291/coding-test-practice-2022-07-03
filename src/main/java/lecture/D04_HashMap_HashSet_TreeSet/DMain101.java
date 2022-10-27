@@ -3,8 +3,8 @@ package lecture.D04_HashMap_HashSet_TreeSet;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
-
-// 어려움 다시보기!!
+//★
+//ㅇ
 public class DMain101 {
     public char solution(int n, String s){
         char answer = ' ';
@@ -13,7 +13,8 @@ public class DMain101 {
             map.put(x, map.getOrDefault(x, 0) + 1);
         }
         int max = Integer.MIN_VALUE;
-        for (char key : map.keySet()){
+        for (char key : map.keySet()){  // key를 탐색한다.
+//            System.out.println(key + " " + map.get(x)); // 키 출력
             if (map.get(key) > max){
                 max = map.get(key);
                 answer = key;

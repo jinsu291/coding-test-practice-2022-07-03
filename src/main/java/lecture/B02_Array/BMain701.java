@@ -3,7 +3,7 @@ package lecture.B02_Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// 어려움 다시보기!!
+//ㅇ
 public class BMain701 {
     public int solution(int n, int[] arr){
         int answer = 0, cnt = 0;
