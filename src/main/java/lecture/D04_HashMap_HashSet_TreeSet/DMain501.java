@@ -4,8 +4,8 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.TreeSet;
-
-// 어려움 다시보기!!
+//★
+//ㅇ
 public class DMain501 {
     public int solution(int[] arr, int n, int k){
        int answer = -1;

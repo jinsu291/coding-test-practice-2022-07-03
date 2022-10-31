@@ -3,8 +3,8 @@ package lecture.D04_HashMap_HashSet_TreeSet;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
-
-// 어려움 다시보기!!
+//★
+//ㅇ
 public class DMain401 {
     public int solution(String  a, String b){
        int answer = 0;
@@ -23,7 +23,7 @@ public class DMain401 {
            if (am.equals(bm)){
                answer++;
            }
-           am.put(a.charAt(lt), am.get(a.charAt(lt)) -1);
+           am.put(a.charAt(lt), am.get(a.charAt(lt)) - 1);
            if (am.get(a.charAt(lt)) == 0){
                am.remove(a.charAt(lt));
            }

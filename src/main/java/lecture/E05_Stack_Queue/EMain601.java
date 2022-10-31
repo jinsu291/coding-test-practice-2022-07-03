@@ -4,8 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
-
-// 어려움 다시보기!!
+//★
+//ㅇ
 public class EMain601 {
     public int solution(int n, int k){
         int answer = 0;

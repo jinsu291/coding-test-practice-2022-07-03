@@ -2,15 +2,15 @@ package lecture.E05_Stack_Queue;
 
 import java.util.Scanner;
 import java.util.Stack;
-
-// 어려움 다시보기!!
+//★
+//ㅇ
 public class EMain401 {
     public int solution(String str){
         int answer = 0;
         Stack<Integer> stack = new Stack<>();
         for (char x : str.toCharArray()){
             if (Character.isDigit(x)){
-                stack.push(x - 48);
+                stack.push(x - 48); // 48을 빼주어야 실제로 숫자가 된다.
             } else {
                 int rt = stack.pop();
                 int lt = stack.pop();

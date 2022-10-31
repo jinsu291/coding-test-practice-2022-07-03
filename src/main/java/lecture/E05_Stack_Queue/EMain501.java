@@ -2,8 +2,8 @@ package lecture.E05_Stack_Queue;
 
 import java.util.Scanner;
 import java.util.Stack;
-
-// 어려움 다시보기!!
+//★
+//ㅇ
 public class EMain501 {
     public int solution(String str){
         int cnt = 0;

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 import java.util.Stack;
 
-// 어려움 다시보기!!
+//ㅇ
 public class EMain101 {
     public String  solution(String str){
         String answer = "YES";
