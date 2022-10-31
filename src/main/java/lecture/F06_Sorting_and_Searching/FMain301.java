@@ -1,8 +1,8 @@
 package lecture.F06_Sorting_and_Searching;
 
 import java.util.Scanner;
-
 // 삽입정렬
+//ㅇ
 public class FMain301 {
     public int[] solution(int n, int[] arr){
         for (int i = 1; i < n; i++){

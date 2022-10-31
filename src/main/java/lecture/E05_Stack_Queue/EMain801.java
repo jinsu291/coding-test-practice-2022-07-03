@@ -2,7 +2,8 @@ package lecture.E05_Stack_Queue;
 
 import java.io.IOException;
 import java.util.*;
-
+//★
+//
 public class EMain801 {
     private class Person {
         int id;

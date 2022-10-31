@@ -1,8 +1,8 @@
 package lecture.F06_Sorting_and_Searching;
 
 import java.util.Scanner;
-
-
+//★
+//ㅇ
 public class FMain401 {
     public int[] solution(int size, int n, int[] arr){
         int[] cache = new int[size];

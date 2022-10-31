@@ -3,8 +3,8 @@ package lecture.F06_Sorting_and_Searching;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
-
-
+//★
+//ㅇ
 public class FMain801 {
     public int solution(int n, int m, int[] arr){
         int answer = 0;

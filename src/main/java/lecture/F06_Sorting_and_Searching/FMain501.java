@@ -3,7 +3,7 @@ package lecture.F06_Sorting_and_Searching;
 import java.util.Arrays;
 import java.util.Scanner;
 
-
+//ㅇ
 public class FMain501 {
     public String  solution(int n, int[] arr){
         String answer = "U";
