@@ -1,20 +1,23 @@
 package lecture.G07_Recursive_Tree_Graph;
 
+import java.util.Scanner;
+
+//ㅇ
 public class GMain101 {
-    public void DFS(int n){
-        if (n == 0){
-            return;
+    private int DFS(int n) {
+        if (n == 0) {
+            return 1;
         } else {
             DFS(n - 1);
             System.out.print(n + " ");
         }
-    }
-    public void solution(int n){
-        DFS(n);
+        return (n + 1);
     }
 
     public static void main(String[] args) {
         GMain101 T = new GMain101();
-        T.solution(3);
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        System.out.println(T.DFS(n - 1));
     }
 }
