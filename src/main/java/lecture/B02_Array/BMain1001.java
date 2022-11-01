@@ -1,8 +1,8 @@
 package lecture.B02_Array;
 
 import java.util.Scanner;
-
-// 어려움 다시보기!!
+//★
+//ㅇ
 public class BMain1001 {
     int[] dx = {-1, 0, 1, 0};
     int[] dy = {0, 1, 0, -1};

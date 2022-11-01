@@ -2,6 +2,7 @@ package lecture.B02_Array;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+
 //o
 public class BMain101 {
     public ArrayList<Integer> solution(int n, int[] arr){

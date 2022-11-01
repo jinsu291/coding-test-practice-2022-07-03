@@ -1,6 +1,7 @@
 package lecture.A01_String;
 
 import java.util.Scanner;
+
 //o
 public class AMain201 {
     public String solution(String str){

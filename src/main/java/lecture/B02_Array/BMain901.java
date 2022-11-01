@@ -2,7 +2,7 @@ package lecture.B02_Array;
 
 import java.util.Scanner;
 
-// 어려움 다시보기!!
+//ㅇ
 public class BMain901 {
     public int solution(int n, int[][] arr){
         int answer = Integer.MIN_VALUE;

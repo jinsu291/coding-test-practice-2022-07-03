@@ -3,7 +3,7 @@ package lecture.E05_Stack_Queue;
 import java.io.IOException;
 import java.util.*;
 //★
-//
+//ㅇ
 public class EMain801 {
     private class Person {
         int id;
@@ -21,8 +21,8 @@ public class EMain801 {
             Q.offer(new Person(i, arr[i]));
         }
         while (!Q.isEmpty()) {
-            Person tmp = Q.poll();
-            for (Person x : Q) {
+            Person tmp = Q.poll(); // tmp라는 사람을 처음 꺼내서 이 사람이 진료를 받을 수 있는지 확인해야함
+            for (Person x : Q) { // 25 ~ 31 받을 수 있는지 꺼내보면서 확인하는 작업
                 if (x.priority > tmp.priority) {
                     Q.offer(tmp);
                     tmp = null;
