@@ -1,10 +1,10 @@
 package lecture.G07_Recursive_Tree_Graph;
-//★
-//
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
+//★
+//ㅇ
 public class GMain801 {
     int answer = 0;
     int[] dis = {1, -1, 5};

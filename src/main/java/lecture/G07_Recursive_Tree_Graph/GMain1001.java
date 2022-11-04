@@ -3,7 +3,7 @@ package lecture.G07_Recursive_Tree_Graph;
 import java.util.LinkedList;
 import java.util.Queue;
 //★
-//
+//ㅇ
 public class GMain1001 {
     private static class Node {
         int data;

@@ -1,17 +1,17 @@
 package lecture.B02_Array;
 
 import java.util.Scanner;
-
-// 어려움 다시보기!!
+//★
+//ㅇ
 public class BMain1201 {
     public int solution(int n, int m, int[][] arr){
         int answer = 0;
-        for (int i = 1; i <= n; i++){
+        for (int i = 1; i <= n; i++){ // i, j 는 학생번호
             for (int j = 1; j <= m; j++){
                 int cnt = 0;
-                for (int k = 0; k < m; k++){
+                for (int k = 0; k < m; k++){ // 테스트 수
                     int pi = 0, pj = 0;
-                    for (int s = 0; s < n; s++){
+                    for (int s = 0; s < n; s++){ // s는 등수
                         if (arr[k][s] == i){
                             pi = s;
                         }

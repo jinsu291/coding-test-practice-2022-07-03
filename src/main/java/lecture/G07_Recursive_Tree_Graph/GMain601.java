@@ -1,20 +1,21 @@
 package lecture.G07_Recursive_Tree_Graph;
 //★
-//
+//ㅇ
 class GMain601 {
     static int n;
     static int[] ch;
     public void DFS(int L){
-        if(L == n+1){
+        if (L == n + 1) {
             String tmp = "";
-            for(int i = 1; i <= n; i++){
-                if(ch[i] == 1) tmp += (i + " ");
+            for (int i = 1; i <= n; i++) {
+                if (ch[i] == 1) {
+                    tmp += (i + " ");
+                }
             }
-            if(tmp.length() > 0) {
+            if (tmp.length() > 0) {
                 System.out.println(tmp);
             }
-        }
-        else{
+        } else {
             ch[L] = 1;
             DFS(L + 1);
             ch[L] = 0;

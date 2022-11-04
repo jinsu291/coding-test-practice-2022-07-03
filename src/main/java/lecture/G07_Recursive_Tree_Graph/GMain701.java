@@ -1,7 +1,7 @@
 package lecture.G07_Recursive_Tree_Graph;
 import java.util.*;
 //★
-//
+//ㅇ
 public class GMain701{
     private static class Node{
         int data;
