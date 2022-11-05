@@ -4,11 +4,13 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
+//★
+//ㅇ
 class GMain1301 {
     static int n, m;
     static ArrayList<ArrayList<Integer>> graph;
     static int[] ch, dis;
+
     public void BFS(int v){
         ch[v] = 1;
         dis[v] = 0;

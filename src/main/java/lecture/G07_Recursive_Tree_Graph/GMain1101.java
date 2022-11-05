@@ -1,7 +1,8 @@
 package lecture.G07_Recursive_Tree_Graph;
 
 import java.util.Scanner;
-
+//★
+//ㅇ
 class GMain1101 {
     static int n, m, answer = 0;
     static int[][] graph;
@@ -12,7 +13,7 @@ class GMain1101 {
         }
         else{
             for(int i = 1; i <= n; i++){
-                if(graph[v][i] == 1 && ch[i] == 0){
+                if(graph[v][i] == 1 && ch[i] == 0){ // v점에서 갈수있는 길을 찾아보는 과정 & 안갔던길 가기
                     ch[i] = 1;
                     DFS(i);
                     ch[i] = 0;

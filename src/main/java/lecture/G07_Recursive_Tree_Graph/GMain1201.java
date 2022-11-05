@@ -2,16 +2,19 @@ package lecture.G07_Recursive_Tree_Graph;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//★
+//ㅇ
 class GMain1201 {
     static int n, m, answer = 0;
     static ArrayList<ArrayList<Integer>> graph;
     static int[] ch;
+
     public void DFS(int v){
-        if(v == n) answer++;
-        else{
-            for(int nv : graph.get(v)){
-                if(ch[nv] == 0){
+        if (v == n) {
+            answer++;
+        } else {
+            for (int nv : graph.get(v)) {
+                if (ch[nv] == 0) {
                     ch[nv] = 1;
                     DFS(nv);
                     ch[nv] = 0;
@@ -26,7 +29,7 @@ class GMain1201 {
         n = kb.nextInt();
         m = kb.nextInt();
         graph = new ArrayList<ArrayList<Integer>>();
-        for(int i = 0; i <= n; i++){
+        for(int i = 0; i <= n; i++){ // 객체 생성한다는것 매우 중요!
             graph.add(new ArrayList<Integer>());
         }
         ch = new int[n + 1];
