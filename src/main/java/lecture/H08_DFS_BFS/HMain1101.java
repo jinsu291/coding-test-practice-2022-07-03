@@ -1,21 +1,24 @@
 package lecture.H08_DFS_BFS;
 
 import java.util.*;
-//class Point{
-//    public int x, y;
-//    Point(int x, int y){
-//        this.x=x;
-//        this.y=y;
-//    }
-//}
+
 class HMain1101 {
-    static int[] dx={-1, 0, 1, 0};
-    static int[] dy={0, 1, 0, -1};
+    static int[] dx = {-1, 0, 1, 0};
+    static int[] dy = {0, 1, 0, -1};
     static int[][] board, dis;
-    public void BFS(int x, int y){
-        Queue<Point> Q=new LinkedList<>();
+
+    private class Point {
+        int x, y;
+        public Point(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
+
+    private void BFS(int x, int y){
+        Queue<Point> Q = new LinkedList<>();
         Q.offer(new Point(x, y));
-        board[x][y]=1;
+        board[x][y] = 1;
         while(!Q.isEmpty()){
             Point tmp=Q.poll();
             for(int i=0; i<4; i++){
@@ -30,7 +33,7 @@ class HMain1101 {
         }
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         HMain1101 T = new HMain1101();
         Scanner kb = new Scanner(System.in);
         board=new int[8][8];

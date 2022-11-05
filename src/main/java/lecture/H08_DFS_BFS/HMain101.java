@@ -1,14 +1,19 @@
 package lecture.H08_DFS_BFS;
 
 import java.util.Scanner;
-
+//★
+//ㅇ
 class HMain101{
     static String answer = "NO";
     static int n, total = 0;
     boolean flag = false;
     public void DFS(int L, int sum, int[] arr){
-        if(flag) return;
-        if(sum > total/2) return;
+        if(flag) {
+            return;
+        }
+        if(sum > total / 2) {
+            return;
+        }
         if (L == n) {
             if ((total - sum) == sum) {
                 answer = "YES";

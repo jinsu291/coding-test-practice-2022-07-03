@@ -1,15 +1,19 @@
 package lecture.H08_DFS_BFS;
 
 import java.util.*;
+//★
+//ㅇ
 class HMain201{
     static int answer = Integer.MIN_VALUE, c, n;
     public void DFS(int L, int sum, int[] arr){
-        if(sum > c) return;
+        if(sum > c) {
+            return;
+        }
         if(L == n){
-            answer=Math.max(answer, sum);
+            answer = Math.max(answer, sum);
         }
         else{
-            DFS(L + 1, sum+arr[L], arr);
+            DFS(L + 1, sum + arr[L], arr);
             DFS(L + 1, sum, arr);
         }
     }
