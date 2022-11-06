@@ -30,7 +30,7 @@ public class S11660 {
             y1 = kb.nextInt();
             x2 = kb.nextInt();
             y2 = kb.nextInt();
-            sum[k] += arr1[x2][y2]-arr1[x2][y1-1]-arr1[x1-1][y2]+arr1[x1-1][y1-1];
+            sum[k] += arr1[x2][y2] - arr1[x2][y1 - 1] - arr1[x1 - 1][y2] + arr1[x1 - 1][y1 - 1];
 
         }
         for(int k = 0; k < m; k++) {
