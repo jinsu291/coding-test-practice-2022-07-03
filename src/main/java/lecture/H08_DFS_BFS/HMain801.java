@@ -2,7 +2,7 @@ package lecture.H08_DFS_BFS;
 
 import java.util.*;
 //★
-//
+//ㅇ
 class HMain801{
     static int[] b, p, ch;
     static int n, f;
@@ -14,8 +14,7 @@ class HMain801{
         }
         if (n == r || r == 0) {
             return 1;
-        }
-        else {
+        } else {
             return dy[n][r] = combi(n - 1, r - 1) + combi(n - 1, r);
         }
     }
