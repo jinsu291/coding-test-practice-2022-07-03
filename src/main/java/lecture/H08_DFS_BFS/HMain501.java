@@ -26,7 +26,7 @@ class HMain501{
         HMain501 T = new HMain501();
         Scanner kb = new Scanner(System.in);
         n = kb.nextInt();
-        Integer[] arr = new Integer[n];
+        Integer[] arr = new Integer[n]; // Collections 때문에 Integer 해야 됨
         for (int i = 0; i < n; i++) {
             arr[i] = kb.nextInt();
         }

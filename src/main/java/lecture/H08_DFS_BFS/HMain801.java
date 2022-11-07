@@ -1,6 +1,8 @@
 package lecture.H08_DFS_BFS;
 
 import java.util.*;
+//★
+//
 class HMain801{
     static int[] b, p, ch;
     static int n, f;
@@ -23,7 +25,6 @@ class HMain801{
             return;
         }
         if (L == n) {
-
             if (sum == f) {
                 for (int x : p) {
                     System.out.print(x + " ");

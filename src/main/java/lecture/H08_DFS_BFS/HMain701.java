@@ -1,6 +1,8 @@
 package lecture.H08_DFS_BFS;
 
 import java.util.*;
+//★
+//ㅇ
 class HMain701{
     int[][] dy = new int[35][35];
     public int DFS(int n, int r) {
