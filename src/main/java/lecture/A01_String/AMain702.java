@@ -5,12 +5,12 @@ import java.util.Scanner;
 //o
 public class AMain702 {
     public String solution(String str) {
-        String answer ="NO";
+        String answer = "NO";
         String tmp = new StringBuilder(str).reverse().toString();
         if(str.equalsIgnoreCase(tmp)){
             answer = "YES";
         }
-        return  answer;
+        return answer;
     }
 
     public static void main(String[] args) {

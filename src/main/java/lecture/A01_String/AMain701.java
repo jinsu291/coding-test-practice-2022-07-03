@@ -5,11 +5,11 @@ import java.util.Scanner;
 //o
 public class AMain701 {
     public String solution(String str) {
-        String answer ="YES";
+        String answer = "YES";
         str = str.toUpperCase();
         int len = str.length();
-        for(int i = 0; i< len/2; i++){
-            if(str.charAt(i) != str.charAt(len-i-1)){
+        for (int i = 0; i < len / 2; i++) {
+            if (str.charAt(i) != str.charAt(len - i - 1)) {
                 answer = "NO";
             }
         }

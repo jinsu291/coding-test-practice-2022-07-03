@@ -2,7 +2,7 @@ package lecture.B02_Array;
 
 import java.util.Scanner;
 //★
-//ㅇ
+//ㅇㅇ
 public class BMain1101 {
     public int solution(int n, int[][] arr){
         int answer = 0, max = 0;

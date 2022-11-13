@@ -5,10 +5,12 @@ import java.util.Scanner;
 //o
 public class AMain801 {
     public String solution(String s) {
-        String answer ="NO";
+        String answer = "NO";
         s = s.toUpperCase().replaceAll("[^A-Z]", "");
         String tmp = new StringBuilder(s).reverse().toString();
-        if(s.equals(tmp)) answer="YES";
+        if(s.equals(tmp)) {
+            answer="YES";
+        }
         return answer;
     }
 

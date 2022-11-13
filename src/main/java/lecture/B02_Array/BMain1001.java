@@ -2,7 +2,7 @@ package lecture.B02_Array;
 
 import java.util.Scanner;
 //★
-//ㅇ
+//ㅇㅇ
 public class BMain1001 {
     int[] dx = {-1, 0, 1, 0};
     int[] dy = {0, 1, 0, -1};

@@ -3,11 +3,13 @@ package lecture.B02_Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 //★
-//ㅇ
+//ㅇㅇ
 public class BMain601 {
 
     private boolean isPrime(int num) {
-        if(num == 1) return false;
+        if(num == 1) {
+            return false;
+        }
         for(int i = 2; i < num; i++){
             if(num % i == 0){
                 return false;
@@ -18,7 +20,7 @@ public class BMain601 {
 
     public ArrayList<Integer> solution(int n, int[] arr){
         ArrayList<Integer> answer = new ArrayList<>();
-        for(int i =0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             int tmp = arr[i];
             int res = 0;
             while (tmp > 0) {
@@ -26,7 +28,7 @@ public class BMain601 {
                 res = res * 10 + t;
                 tmp = tmp / 10;
             }
-            if(isPrime(res)){
+            if (isPrime(res)) {
                 answer.add(res);
             }
         }
@@ -36,7 +38,7 @@ public class BMain601 {
     public static void main(String[] args) {
         BMain601 T = new BMain601();
         Scanner kb = new Scanner(System.in);
-        int n=kb.nextInt();
+        int n = kb.nextInt();
         int[] arr = new int[n];
         for(int i = 0; i < n ; i++){
             arr[i] = kb.nextInt();

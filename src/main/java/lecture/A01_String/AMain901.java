@@ -5,7 +5,7 @@ import java.util.Scanner;
 //o
 public class AMain901 {
     public int solution(String s) {
-        String answer ="";
+        String answer = "";
         for(char x : s.toCharArray()){
             if(Character.isDigit(x)){
                 answer += x;
