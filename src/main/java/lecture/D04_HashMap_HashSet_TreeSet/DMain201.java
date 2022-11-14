@@ -2,8 +2,8 @@ package lecture.D04_HashMap_HashSet_TreeSet;
 
 import java.util.HashMap;
 import java.util.Scanner;
-//★
-//ㅇ
+
+//ㅇㅇ
 public class DMain201 {
     public String solution(String s1, String s2){
         String answer = "YES";

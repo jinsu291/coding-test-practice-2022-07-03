@@ -34,6 +34,8 @@ public class CMain201 {
         for(int i = 0; i<m; i++){
             b[i] = kb.nextInt();
         }
-        for(int x : T.solution(n, m, a, b)) System.out.print(x+" ");
+        for(int x : T.solution(n, m, a, b)) {
+            System.out.print(x+" ");
+        }
     }
 }

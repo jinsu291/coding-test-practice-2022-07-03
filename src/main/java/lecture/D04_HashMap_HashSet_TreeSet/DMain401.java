@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 //★
-//ㅇ
+//ㅇㅇ
 public class DMain401 {
     public int solution(String  a, String b){
        int answer = 0;

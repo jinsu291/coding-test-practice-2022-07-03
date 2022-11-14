@@ -12,7 +12,7 @@ public class DMain501 {
         TreeSet<Integer> Tset = new TreeSet<>(Collections.reverseOrder());
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
-                for(int l = j+ 1; l < n; l++) {
+                for (int l = j + 1; l < n; l++) {
                     Tset.add(arr[i] + arr[j] + arr[l]);
                 }
             }
