@@ -6,15 +6,14 @@ import java.util.Stack;
 
 //ㅇ
 public class EMain101 {
-    public String  solution(String str){
+    public String solution(String str){
         String answer = "YES";
         Stack<Character> stack = new Stack<>();
         for (char x : str.toCharArray()){
-            if( x == '(') {
+            if (x == '(') {
                 stack.push(x);
-            }
-            else {
-                if(stack.isEmpty()){
+            } else {
+                if (stack.isEmpty()) {
                     return "NO";
                 }
                 stack.pop();

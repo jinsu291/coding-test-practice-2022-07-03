@@ -3,7 +3,7 @@ package lecture.E05_Stack_Queue;
 import java.util.Scanner;
 import java.util.Stack;
 //★
-//ㅇ
+//ㅇㅇ
 public class EMain301 {
     public int  solution(int[][] board, int[] moves){
         int answer = 0;
@@ -16,8 +16,9 @@ public class EMain301 {
                     if (!stack.isEmpty() && tmp == stack.peek()){
                         answer += 2;
                         stack.pop();
+                    } else {
+                        stack.push(tmp);
                     }
-                    else stack.push(tmp);
                     break;
                 }
             }

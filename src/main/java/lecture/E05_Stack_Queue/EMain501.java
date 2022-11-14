@@ -3,7 +3,7 @@ package lecture.E05_Stack_Queue;
 import java.util.Scanner;
 import java.util.Stack;
 //★
-//ㅇ
+//ㅇㅇ
 public class EMain501 {
     public int solution(String str){
         int cnt = 0;

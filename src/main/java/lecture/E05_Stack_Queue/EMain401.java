@@ -2,8 +2,8 @@ package lecture.E05_Stack_Queue;
 
 import java.util.Scanner;
 import java.util.Stack;
-//★
-//ㅇ
+
+//ㅇㅇ
 public class EMain401 {
     public int solution(String str){
         int answer = 0;
@@ -15,13 +15,13 @@ public class EMain401 {
                 int rt = stack.pop();
                 int lt = stack.pop();
                 if(x == '+') {
-                    stack.push(lt+rt);
+                    stack.push(lt + rt);
                 } else if(x == '-') {
-                    stack.push(lt-rt);
+                    stack.push(lt - rt);
                 } else if(x == '*') {
-                    stack.push(lt*rt);
+                    stack.push(lt * rt);
                 } else if(x == '/') {
-                    stack.push(lt/rt);
+                    stack.push(lt / rt);
                 }
             }
         }
