@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-//ㅇ
+//ㅇㅇ
 public class FMain601 {
     public ArrayList<Integer> solution(int n, int[] arr){
         ArrayList<Integer> answer = new ArrayList<>();

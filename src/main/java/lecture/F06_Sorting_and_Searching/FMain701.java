@@ -2,7 +2,7 @@ package lecture.F06_Sorting_and_Searching;
 
 import java.util.*;
 //★
-//ㅇ
+//ㅇㅇ
 public class FMain701 {
     private static class Point implements Comparable<Point>{
         int x, y;

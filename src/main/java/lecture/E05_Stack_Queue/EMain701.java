@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 //★
-//ㅇ
+//ㅇㅇ
 public class EMain701 {
     public String solution(String need, String plan){
         String answer = "YES";
