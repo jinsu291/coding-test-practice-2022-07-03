@@ -1,8 +1,8 @@
 package lecture.H08_DFS_BFS;
 
 import java.util.Scanner;
-//★
-//ㅇ
+
+//ㅇㅇ
 class HMain101{
     static String answer = "NO";
     static int n, total = 0;

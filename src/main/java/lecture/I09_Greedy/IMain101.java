@@ -3,8 +3,8 @@ package lecture.I09_Greedy;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
-//★
-//ㅇ
+
+//ㅇㅇ
 public class IMain101 {
     private static class Body implements Comparable<Body> {
         int h, w;
@@ -14,7 +14,7 @@ public class IMain101 {
         }
         @Override
         public int compareTo(Body o) {
-            return o.h = this.h; // 음수 값 리턴(h에서 내림차순)
+            return o.h - this.h; // 음수 값 리턴(h에서 내림차순)
         }
     }
 

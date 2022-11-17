@@ -1,11 +1,10 @@
 package lecture.H08_DFS_BFS;
 
 import java.util.*;
-//★
-//ㅇ
+
+//ㅇㅇ
 class HMain301{
     static int answer = Integer.MIN_VALUE, n, m;
-    boolean flag = false;
     public void DFS(int L, int sum, int time, int[] ps, int[] pt){
         if (time > m) {
             return;

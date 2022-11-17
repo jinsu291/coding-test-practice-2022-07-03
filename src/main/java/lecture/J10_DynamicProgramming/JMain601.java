@@ -1,6 +1,7 @@
 package lecture.J10_DynamicProgramming;
 
 import java.util.Scanner;
+//★
 
 public class JMain601 {
     public static void main(String[] args) {
