@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 //★
-//ㅇ
+//ㅇㅇ
 public class FMain801 {
     public int solution(int n, int m, int[] arr){
         int answer = 0;
@@ -19,7 +19,7 @@ public class FMain801 {
             if (arr[mid] > m){
                 rt = mid - 1;
             } else {
-                lt= mid + 1;
+                lt = mid + 1;
             }
         }
         return answer;

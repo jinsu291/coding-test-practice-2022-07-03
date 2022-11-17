@@ -1,6 +1,6 @@
 package lecture.G07_Recursive_Tree_Graph;
 //★
-//ㅇ
+//ㅇㅇ
 class GMain601 {
     static int n;
     static int[] ch;

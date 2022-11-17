@@ -3,8 +3,8 @@ package lecture.G07_Recursive_Tree_Graph;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-//★
-//ㅇ
+//★★
+//ㅇㅇ
 public class GMain801 {
     int answer = 0;
     int[] dis = {1, -1, 5};
@@ -24,8 +24,8 @@ public class GMain801 {
                     if (nx == e){
                         return L + 1;
                     }
-                    if (nx >= 1 && nx <= 10000 && ch[nx] == 0){
-                        ch[nx] = 1;
+                    if (nx >= 1 && nx <= 10000 && ch[nx] == 0){ // ch[nx] == 0는 방문 안한것
+                        ch[nx] = 1; // 방문으로 표시
                         Q.offer(nx);
                     }
                 }

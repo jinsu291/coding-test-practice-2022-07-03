@@ -1,6 +1,6 @@
 package lecture.G07_Recursive_Tree_Graph;
-//★
-//ㅇ
+//★★
+//ㅇㅇ
 public class GMain901 {
     private static class Node {
         int data;

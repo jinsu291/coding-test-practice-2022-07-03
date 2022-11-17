@@ -2,8 +2,8 @@ package lecture.G07_Recursive_Tree_Graph;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-//★
-//ㅇ
+//★★
+//ㅇㅇ
 class GMain1201 {
     static int n, m, answer = 0;
     static ArrayList<ArrayList<Integer>> graph;

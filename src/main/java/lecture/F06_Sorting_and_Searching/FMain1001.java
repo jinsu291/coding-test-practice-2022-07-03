@@ -3,7 +3,7 @@ package lecture.F06_Sorting_and_Searching;
 import java.util.Arrays;
 import java.util.Scanner;
 //★
-//ㅇ
+//ㅇㅇ
 public class FMain1001 {
     private int count(int[] arr, int dist) {
         int cnt = 1;

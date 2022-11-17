@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-//★
-//ㅇ
+//★★
+//ㅇㅇ
 class GMain1301 {
     static int n, m;
     static ArrayList<ArrayList<Integer>> graph;

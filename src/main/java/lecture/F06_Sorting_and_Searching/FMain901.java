@@ -3,16 +3,15 @@ package lecture.F06_Sorting_and_Searching;
 import java.util.Arrays;
 import java.util.Scanner;
 //★
-//ㅇ
+//ㅇㅇ
 public class FMain901 {
     private int count(int[] arr, int capacity) {
         int cnt = 1, sum = 0;
         for (int x : arr) {
-            if (sum + x > capacity){
+            if (sum + x > capacity) {
                 cnt++;
                 sum = x;
-            }
-            else {
+            } else {
                 sum += x;
             }
         }
@@ -27,11 +26,10 @@ public class FMain901 {
         int rt = Arrays.stream(arr).sum(); // sum() 합하는 것, 그리고 리턴값은 int이다.
         while (lt <= rt){
             int mid = (lt + rt) / 2;
-            if (count(arr, mid) <= k){
+            if (count(arr, mid) <= k) {
                 answer = mid;
                 rt = mid - 1;
-            }
-            else {
+            } else {
                 lt = mid + 1;
             }
         }
