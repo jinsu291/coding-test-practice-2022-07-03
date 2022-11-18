@@ -1,7 +1,8 @@
 package lecture.H08_DFS_BFS;
 
 import java.util.Scanner;
-
+//★
+//
 class HMain901{
     static int[] combi;
     static int n, m;
@@ -9,8 +10,6 @@ class HMain901{
         if (L == m) {
             for (int x : combi) {
                 System.out.print(x + " ");
-            }
-            {
                 System.out.println();
             }
         } else {

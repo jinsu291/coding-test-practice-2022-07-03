@@ -1,8 +1,8 @@
 package lecture.H08_DFS_BFS;
 
 import java.util.*;
-//★
-//ㅇ
+//★★
+//ㅇㅇ
 class HMain501{
     static int n, m, answer = Integer.MAX_VALUE;
 

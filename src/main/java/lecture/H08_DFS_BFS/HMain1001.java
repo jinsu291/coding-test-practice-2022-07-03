@@ -1,5 +1,6 @@
 package lecture.H08_DFS_BFS;
-
+//★
+//ㅇ
 import java.util.*;
 class HMain1001 {
     static int[] dx = {-1, 0, 1, 0};
@@ -10,8 +11,7 @@ class HMain1001 {
     public void DFS(int x, int y) {
         if (x == 7 && y == 7) {
             answer++;
-        }
-        else {
+        } else {
             for (int i = 0; i < 4; i++) {
                 int nx = x + dx[i];
                 int ny = y + dy[i];

@@ -2,7 +2,7 @@ package lecture.H08_DFS_BFS;
 
 import java.util.*;
 //★
-//ㅇ
+//ㅇㅇ
 class HMain701{
     int[][] dy = new int[35][35];
     public int DFS(int n, int r) {
@@ -11,8 +11,7 @@ class HMain701{
         }
         if (n == r || r == 0) {
             return 1;
-        }
-        else {
+        } else {
             return dy[n][r] = DFS(n - 1, r - 1) + DFS(n - 1, r);
         }
     }

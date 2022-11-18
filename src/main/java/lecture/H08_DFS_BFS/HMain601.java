@@ -1,8 +1,8 @@
 package lecture.H08_DFS_BFS;
 
 import java.util.*;
-//★
-//ㅇ
+//★★
+//ㅇㅇ
 class HMain601{
     static int[] pm, ch, arr;
     static int n, m;
@@ -10,8 +10,6 @@ class HMain601{
         if (L == m) {
             for (int x : pm) {
                 System.out.print(x + " ");
-            }
-            {
                 System.out.println();
             }
         } else {
