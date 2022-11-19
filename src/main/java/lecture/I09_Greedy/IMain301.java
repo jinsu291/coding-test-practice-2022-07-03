@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 //★
-//
+//ㅇ
 public class IMain301 {
     private static class Time implements Comparable<Time> {
         public int time;
@@ -13,21 +13,28 @@ public class IMain301 {
             this.time = time;
             this.state = state;
         }
+
         @Override
         public int compareTo(Time ob) {
-            if(this.time==ob.time) return this.state-ob.state;
-            else return this.time-ob.time;
+            if (this.time == ob.time) {
+                return this.state - ob.state;
+            } else {
+                return this.time - ob.time;
+            }
         }
     }
 
     private int solution(ArrayList<Time> arr) {
-        int answer=Integer.MIN_VALUE;
+        int answer = Integer.MIN_VALUE;
         Collections.sort(arr);
-        int cnt=0;
+        int cnt = 0;
         for(Time ob : arr){
-            if(ob.state=='s') cnt++;
-            else cnt--;
-            answer=Math.max(answer, cnt);
+            if (ob.state == 's') {
+                cnt++;
+            } else {
+                cnt--;
+            }
+            answer = Math.max(answer, cnt);
         }
         return answer;
     }
@@ -35,11 +42,11 @@ public class IMain301 {
     public static void main(String[] args) {
         IMain301 T = new IMain301();
         Scanner kb = new Scanner(System.in);
-        int n=kb.nextInt();
+        int n = kb.nextInt();
         ArrayList<Time> arr = new ArrayList<>();
-        for(int i=0; i<n; i++){
-            int sT=kb.nextInt();
-            int eT=kb.nextInt();
+        for (int i = 0; i < n; i++) {
+            int sT = kb.nextInt();
+            int eT = kb.nextInt();
             arr.add(new Time(sT, 's'));
             arr.add(new Time(eT, 'e'));
         }

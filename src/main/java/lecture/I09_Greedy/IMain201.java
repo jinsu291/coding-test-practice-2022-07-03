@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 //★
-//
+//ㅇ
 public class IMain201 {
     //회의가 빨리 끝나는 것 기준으로 그리디로 하면 최대의 회의 수를 나타낼 수 있다.
     private static class Time implements Comparable<Time>{

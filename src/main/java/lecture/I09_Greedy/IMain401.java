@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 //★
-//
+//ㅇ
 public class IMain401 {
     private static class Lecture implements Comparable<Lecture> {
         int money;

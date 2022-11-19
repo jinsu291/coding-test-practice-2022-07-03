@@ -1,7 +1,8 @@
 package lecture.I09_Greedy;
 
 import java.util.Scanner;
-
+//★★
+//ㅇ
 public class IMain601 {
     private static int[] unf;
 

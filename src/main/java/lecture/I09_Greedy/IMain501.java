@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Scanner;
-
+//★★
+//ㅇ
 public class IMain501 {
     private static int n, m;
     private static ArrayList<ArrayList<Edge>> graph;
@@ -67,7 +68,7 @@ public class IMain501 {
             if (dis[i] != Integer.MAX_VALUE) {
                 System.out.println(i + " : " + dis[i]);
             } else {
-                System.out.println(i + " :impossible");
+                System.out.println(i + " : impossible");
             }
         }
     }
