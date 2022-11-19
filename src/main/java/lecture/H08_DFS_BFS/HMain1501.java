@@ -24,6 +24,7 @@ public class HMain1501 {
                 int dis = Integer.MAX_VALUE;
                 for (int i : combi) {
                     dis = Math.min(dis, Math.abs(h.x - pz.get(i).x) + Math.abs(h.y - pz.get(i).y));
+                    // Math.abs : 절대값
                 }
                 sum += dis;
             }

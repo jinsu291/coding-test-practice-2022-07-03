@@ -1,19 +1,19 @@
-package lecture.H08_DFS_BFS;
+package baekjoon.gold;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
-//★★
-//ㅇ
-public class HMain1201 {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.*;
+
+public class G7576 {
+    private static int n, m;
+    private static int[][] board, dis;
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, 1, 0, -1};
-    static int[][] board, dis;
-    static int n, m;
     static Queue<Point> Q = new LinkedList<>();
 
     private static class Point {
-        int x, y;
+        int x , y;
 
         public Point(int x, int y) {
             this.x = x;
@@ -21,7 +21,7 @@ public class HMain1201 {
         }
     }
 
-    private void BFS(){
+    private void BFS() {
         while (!Q.isEmpty()) {
             Point tmp = Q.poll();
             for (int i = 0; i < 4; i++) {
@@ -36,16 +36,18 @@ public class HMain1201 {
         }
     }
 
-    public static void main(String[] args) {
-        HMain1201 T = new HMain1201();
-        Scanner kb = new Scanner(System.in);
-        m = kb.nextInt();
-        n = kb.nextInt();
+    public static void main(String[] args) throws IOException {
+        G7576 T = new G7576();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        m = Integer.parseInt(st.nextToken());
+        n = Integer.parseInt(st.nextToken());
         board = new int[n][m];
         dis = new int[n][m];
         for (int i = 0; i < n; i++) {
+            st = new StringTokenizer(br.readLine());
             for (int j = 0; j < m; j++) {
-                board[i][j] = kb.nextInt();
+                board[i][j] = Integer.parseInt(st.nextToken());
                 if (board[i][j] == 1) {
                     Q.offer(new Point(i, j));
                 }

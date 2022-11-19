@@ -1,8 +1,8 @@
 package lecture.H08_DFS_BFS;
 
 import java.util.*;
-//★
-//
+//★★
+//ㅇ
 class HMain1101 {
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, 1, 0, -1};
@@ -10,6 +10,7 @@ class HMain1101 {
 
     private class Point {
         int x, y;
+
         public Point(int x, int y) {
             this.x = x;
             this.y = y;
