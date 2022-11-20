@@ -3,7 +3,8 @@ package lecture.I09_Greedy;
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.Scanner;
-
+//★★
+//ㅇ
 public class IMain801 {
     private static class Edge implements Comparable<Edge> {
         public int vex;
@@ -25,7 +26,7 @@ public class IMain801 {
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int m = kb.nextInt();
-        ArrayList<ArrayList<Edge>> graph = new ArrayList<ArrayList<Edge>>();
+        ArrayList<ArrayList<Edge>> graph = new ArrayList<>();
         for (int i = 0; i <= n; i++) {
             graph.add(new ArrayList<Edge>());
         }

@@ -3,7 +3,8 @@ package lecture.I09_Greedy;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
-
+//★★
+//ㅇ
 public class IMain701 {
     private static int[] unf;
 
