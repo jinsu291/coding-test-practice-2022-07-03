@@ -1,10 +1,14 @@
 package baekjoon.gold;
 
+import java.io.IOException;
 import java.util.*;
-class G15686 {
-    static int n, m, len, answer = Integer.MAX_VALUE;
-    static int[] combi;
-    static ArrayList<Point> hs, ch;
+
+public class G15686 {
+
+    private static ArrayList<Point> ch, hs;
+    private static int len, n, m, answer = Integer.MAX_VALUE;
+    private static int[] combi;
+
     private static class Point {
         int x, y;
 
@@ -14,7 +18,7 @@ class G15686 {
         }
     }
 
-    public void DFS(int L, int s){
+    private void DFS(int L, int s) {
         if (L == m) {
             int sum = 0;
             for (Point h : hs) {
@@ -33,7 +37,7 @@ class G15686 {
         }
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
         G15686 T = new G15686();
         Scanner kb = new Scanner(System.in);
         n = kb.nextInt();
@@ -48,7 +52,6 @@ class G15686 {
                 } else if (tmp == 2) {
                     ch.add(new Point(i, j));
                 }
-
             }
         }
         len = ch.size();
@@ -57,4 +60,3 @@ class G15686 {
         System.out.println(answer);
     }
 }
-
