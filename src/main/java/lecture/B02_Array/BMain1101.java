@@ -1,7 +1,7 @@
 package lecture.B02_Array;
 
 import java.util.Scanner;
-//★
+//★★
 //ㅇㅇ
 public class BMain1101 {
     public int solution(int n, int[][] arr){

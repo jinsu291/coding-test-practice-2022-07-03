@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.TreeSet;
-//★
+//★★
 //ㅇ
 public class DMain501 {
     public int solution(int[] arr, int n, int k){

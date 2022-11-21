@@ -2,7 +2,7 @@ package lecture.F06_Sorting_and_Searching;
 
 import java.util.Arrays;
 import java.util.Scanner;
-//★
+//★★★
 //ㅇㅇ
 public class FMain901 {
     private int count(int[] arr, int capacity) {

@@ -1,7 +1,7 @@
 package lecture.F06_Sorting_and_Searching;
 
 import java.util.Scanner;
-//★
+//★★
 //ㅇㅇ
 public class FMain401 {
     public int[] solution(int size, int n, int[] arr){
@@ -13,13 +13,12 @@ public class FMain401 {
                     pos = i;
                 }
             }
-            if (pos == -1){
-                for (int i = size - 1; i >= 1; i--){
+            if (pos == -1) {
+                for (int i = size - 1; i >= 1; i--) {
                     cache[i] = cache[i - 1];
                 }
-            }
-            else {
-                for (int i = pos; i >= 1; i--){
+            } else {
+                for (int i = pos; i >= 1; i--) {
                     cache[i] = cache[i - 1];
                 }
             }
