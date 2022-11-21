@@ -1,30 +1,40 @@
 package baekjoon.silver;
 
-import java.util.Scanner;
+import java.io.*;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class S3273 {
-    private int solution(int n, int[] arr, int k) {
-        int answer = 0;
-
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (arr[i] + arr[j] == k){
-                    answer++;
-                }
-            }
-        }
-        return answer;
-    }
-
-    public static void main(String[] args) {
-        S3273 T = new S3273();
-        Scanner kb = new Scanner(System.in);
-        int n = kb.nextInt();
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
+        StringTokenizer st = new StringTokenizer(br.readLine());
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
-            arr[i] = kb.nextInt();
+            arr[i] = Integer.parseInt(st.nextToken());
         }
-        int k = kb.nextInt();
-        System.out.println(T.solution(n, arr, k));
+        Arrays.parallelSort(arr);
+        int k = Integer.parseInt(br.readLine());
+        int count = 0;
+        int start = 0;
+        int end = n - 1;
+        int sum = 0;
+
+        while(start < end) {
+            sum = arr[start] + arr[end];
+            if(sum == k) {
+                count++;
+            }
+
+            if(sum <= k) {
+                start++;
+            }
+            else {
+                end--;
+            }
+        }
+
+
+        System.out.println(count);
     }
 }
