@@ -34,6 +34,7 @@ public class IMain401 {
                 if (arr.get(j).time < i) {
                     break;
                 }
+                pQ.offer(arr.get(j).money);
                 if (!pQ.isEmpty()) {
                     answer += pQ.poll();
                 }
