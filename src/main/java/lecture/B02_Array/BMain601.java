@@ -3,7 +3,7 @@ package lecture.B02_Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 //★
-//ㅇㅇ
+//ㅇㅇㅇ
 public class BMain601 {
 
     private boolean isPrime(int num) {
