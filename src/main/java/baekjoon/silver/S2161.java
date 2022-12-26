@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
-
+//ㅇ
 public class S2161 {
     private ArrayList<Integer> solution(int n) {
         ArrayList<Integer> answer = new ArrayList<>();

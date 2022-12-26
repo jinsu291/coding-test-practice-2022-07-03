@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
-
+//ㅇ
 public class S2164 {
     private int solution(int n) {
         int answer = 0;

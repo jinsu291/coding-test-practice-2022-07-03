@@ -1,7 +1,7 @@
 package baekjoon.bronze;
 
 import java.io.*;
-
+//ㅇ
 public class B2748 {
     public static void main(String[] args) throws IOException {
         B2748 T = new B2748();
