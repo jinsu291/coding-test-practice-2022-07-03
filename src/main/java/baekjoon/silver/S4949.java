@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
-
+//ㅇ
 public class S4949 {
     private static String solution(String s) {
         Stack<Character> stack = new Stack<>();
