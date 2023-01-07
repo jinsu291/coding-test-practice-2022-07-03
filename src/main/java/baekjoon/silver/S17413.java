@@ -11,7 +11,7 @@ public class S17413 {
         String str = br.readLine();
         StringBuilder sb = new StringBuilder();
         boolean flag = false;
-        Stack < Character > stack = new Stack < > ();
+        Stack<Character> stack = new Stack <> ();
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == '<') {
                 while (!stack.isEmpty()) {

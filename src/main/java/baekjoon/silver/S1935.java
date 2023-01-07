@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
-
+//ㅇ
 public class S1935 {
     private String solution(int n, String str, double[] arr) {
         String answer = "";
