@@ -7,19 +7,20 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.StringTokenizer;
 
+//ㅇ
 public class S1269 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int A=Integer.parseInt(st.nextToken());
-        int B=Integer.parseInt(st.nextToken());
+        int A = Integer.parseInt(st.nextToken());
+        int B = Integer.parseInt(st.nextToken());
         Set<Integer> setA = new HashSet<>();
         Set<Integer> setB = new HashSet<>();
         st = new StringTokenizer(br.readLine());
-        for(int i=0; i<A; i++)
+        for (int i = 0; i < A; i++)
             setA.add(Integer.parseInt(st.nextToken()));
         st = new StringTokenizer(br.readLine());
-        for(int i=0; i<B; i++)
+        for (int i = 0; i < B; i++)
             setB.add(Integer.parseInt(st.nextToken()));
         Set<Integer> copy = new HashSet<>(setA);
         setA.removeAll(setB);

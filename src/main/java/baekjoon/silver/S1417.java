@@ -4,7 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-//ㅇ
+
+//ㅇㅇ
 public class S1417 {
     private int solution(int n, int a, int[] arr) {
         int answer = 0;

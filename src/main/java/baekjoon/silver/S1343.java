@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//ㅇ
 public class S1343 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -31,16 +32,16 @@ public class S1343 {
             }
         }
         if (count > 0) {
-            if(count%2 == 1) {
+            if (count % 2 == 1) {
                 sb = new StringBuilder();
                 sb.append(-1);
-            }else {
-                while(count != 0) {
+            } else {
+                while (count != 0) {
 
-                    if(count >= 4) {
+                    if (count >= 4) {
                         sb.append("AAAA");
                         count -= 4;
-                    }else {
+                    } else {
                         sb.append("BB");
                         count -= 2;
                     }
