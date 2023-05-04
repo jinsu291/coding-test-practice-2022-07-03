@@ -2,23 +2,23 @@ package lecture.B02_Array;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+
 //★
 //ㅇㅇㅇ
 public class BMain601 {
-
     private boolean isPrime(int num) {
-        if(num == 1) {
+        if (num == 1) {
             return false;
         }
-        for(int i = 2; i < num; i++){
-            if(num % i == 0){
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
                 return false;
             }
         }
         return true;
     }
 
-    public ArrayList<Integer> solution(int n, int[] arr){
+    public ArrayList<Integer> solution(int n, int[] arr) {
         ArrayList<Integer> answer = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             int tmp = arr[i];
@@ -40,10 +40,10 @@ public class BMain601 {
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr = new int[n];
-        for(int i = 0; i < n ; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = kb.nextInt();
         }
-        for(int x : T.solution(n, arr)){
+        for (int x : T.solution(n, arr)) {
             System.out.println(x + " ");
         }
     }

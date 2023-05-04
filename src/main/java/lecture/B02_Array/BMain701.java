@@ -5,14 +5,13 @@ import java.util.Scanner;
 
 //ㅇ
 public class BMain701 {
-    public int solution(int n, int[] arr){
+    public int solution(int n, int[] arr) {
         int answer = 0, cnt = 0;
-        for(int i = 0; i < n; i++){
-            if(arr[i] == 1){
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == 1) {
                 cnt++;
                 answer += cnt;
-            }
-            else cnt = 0;
+            } else cnt = 0;
         }
         return answer;
     }
@@ -22,7 +21,7 @@ public class BMain701 {
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr = new int[n];
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = kb.nextInt();
         }
         System.out.print(T.solution(n, arr));

@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//ㅇㅇ
 public class S2606 {
     private static int[][] graph;
     private static int n;
@@ -24,7 +25,7 @@ public class S2606 {
         }
     }
 
-    public static void main(String[] args)  throws IOException {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         n = Integer.parseInt(br.readLine());
         int t = Integer.parseInt(br.readLine());

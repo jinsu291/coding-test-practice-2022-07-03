@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 //o
 public class BMain402 {
-    public void solution(int n){
+    public void solution(int n) {
         int a = 1, b = 1, c;
         System.out.print(a + " " + b + " ");
-        for (int i = 2; i < n; i++){
+        for (int i = 2; i < n; i++) {
             c = a + b;
             System.out.print(c + " ");
             a = b;

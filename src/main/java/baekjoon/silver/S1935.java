@@ -4,7 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
-//ㅇ
+
+//ㅇㅇ
 public class S1935 {
     private String solution(int n, String str, double[] arr) {
         String answer = "";
@@ -12,7 +13,7 @@ public class S1935 {
         for (int i = 0; i < str.length(); i++) {
             if ('A' <= str.charAt(i) && str.charAt(i) <= 'Z') {
                 stack.push(arr[str.charAt(i) - 'A']);
-            } else{
+            } else {
                 double rt = stack.pop();
                 double lt = stack.pop();
                 if (str.charAt(i) == '+') {

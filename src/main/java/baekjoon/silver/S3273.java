@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+//ㅇ
 public class S3273 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -20,21 +21,17 @@ public class S3273 {
         int end = n - 1;
         int sum = 0;
 
-        while(start < end) {
+        while (start < end) {
             sum = arr[start] + arr[end];
-            if(sum == k) {
+            if (sum == k) {
                 count++;
             }
-
-            if(sum <= k) {
+            if (sum <= k) {
                 start++;
-            }
-            else {
+            } else {
                 end--;
             }
         }
-
-
         System.out.println(count);
     }
 }
