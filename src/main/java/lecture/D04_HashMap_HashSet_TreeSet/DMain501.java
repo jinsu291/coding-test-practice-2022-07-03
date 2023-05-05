@@ -1,14 +1,14 @@
 package lecture.D04_HashMap_HashSet_TreeSet;
 
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.Scanner;
 import java.util.TreeSet;
+
 //★★
 //ㅇ
 public class DMain501 {
-    public int solution(int[] arr, int n, int k){
-       int answer = -1;
+    public int solution(int[] arr, int n, int k) {
+        int answer = -1;
         TreeSet<Integer> Tset = new TreeSet<>(Collections.reverseOrder());
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
@@ -20,7 +20,7 @@ public class DMain501 {
         int cnt = 0;
         for (int x : Tset) {
             cnt++;
-            if (cnt ==k){
+            if (cnt == k) {
                 return x;
             }
         }
@@ -33,7 +33,7 @@ public class DMain501 {
         int n = kb.nextInt();
         int k = kb.nextInt();
         int[] arr = new int[n];
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = kb.nextInt();
         }
         System.out.println(T.solution(arr, n, k));

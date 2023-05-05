@@ -1,15 +1,14 @@
 package lecture.E05_Stack_Queue;
 
-import java.util.HashMap;
 import java.util.Scanner;
 import java.util.Stack;
 
 //ㅇ
 public class EMain101 {
-    public String solution(String str){
+    public String solution(String str) {
         String answer = "YES";
         Stack<Character> stack = new Stack<>();
-        for (char x : str.toCharArray()){
+        for (char x : str.toCharArray()) {
             if (x == '(') {
                 stack.push(x);
             } else {
@@ -19,7 +18,7 @@ public class EMain101 {
                 stack.pop();
             }
         }
-        if(!stack.isEmpty()) {
+        if (!stack.isEmpty()) {
             return "NO";
         }
         return answer;

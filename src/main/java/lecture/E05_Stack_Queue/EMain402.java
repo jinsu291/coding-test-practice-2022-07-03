@@ -1,16 +1,20 @@
 package lecture.E05_Stack_Queue;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.Stack;
 
-//ㅇㅇ
-public class EMain401 {
-    public int solution(String str) {
-        int answer = 0;
+public class EMain402 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String str = br.readLine();
+        int result = 0;
         Stack<Integer> stack = new Stack<>();
         for (char x : str.toCharArray()) {
             if (Character.isDigit(x)) {
-                stack.push(x - 48); // 48을 빼주어야 실제로 숫자가 된다.
+                stack.push(x - 48);
             } else {
                 int rt = stack.pop();
                 int lt = stack.pop();
@@ -25,14 +29,7 @@ public class EMain401 {
                 }
             }
         }
-        answer = stack.get(0);
-        return answer;
-    }
-
-    public static void main(String[] args) {
-        EMain401 T = new EMain401();
-        Scanner kb = new Scanner(System.in);
-        String str = kb.next();
-        System.out.println(T.solution(str));
+        result += stack.get(0);
+        System.out.println(result);
     }
 }
