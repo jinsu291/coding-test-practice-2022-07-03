@@ -1,21 +1,20 @@
 package lecture.D04_HashMap_HashSet_TreeSet;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
 //ㅇㅇ
 public class DMain101 {
-    public char solution(int n, String s){
+    public char solution(int n, String s) {
         char answer = ' ';
         HashMap<Character, Integer> map = new HashMap<>();
-        for (char x : s.toCharArray()){
+        for (char x : s.toCharArray()) {
             map.put(x, map.getOrDefault(x, 0) + 1);
         }
         int max = Integer.MIN_VALUE;
-        for (char key : map.keySet()){  // key를 탐색한다.
+        for (char key : map.keySet()) {  // key를 탐색한다.
 //            System.out.println(key + " " + map.get(x)); // 키 출력
-            if (map.get(key) > max){
+            if (map.get(key) > max) {
                 max = map.get(key);
                 answer = key;
             }

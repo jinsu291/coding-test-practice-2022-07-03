@@ -4,29 +4,30 @@ import java.util.Scanner;
 
 //o
 public class CMain401 {
-    public int solution(int n, int m, int[] arr){
+    public int solution(int n, int m, int[] arr) {
         int answer = 0, sum = 0, lt = 0;
-        for(int rt = 0; rt < n; rt++){
+        for (int rt = 0; rt < n; rt++) {
             sum += arr[rt];
-            if(sum == m) {
+            if (sum == m) {
                 answer++;
             }
-            while (sum >= m){
+            while (sum >= m) {
                 sum -= arr[lt++];
-                if(sum ==m ){
+                if (sum == m) {
                     answer++;
                 }
             }
         }
         return answer;
     }
+
     public static void main(String[] args) {
         CMain401 T = new CMain401();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int m = kb.nextInt();
         int[] arr = new int[n];
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = kb.nextInt();
         }
         System.out.println(T.solution(n, m, arr));

@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 //ㅇㅇ
 public class CMain502 {
-    public int solution(int n){
+    public int solution(int n) {
         int answer = 0, cnt = 1;
         n--;
-        while(n > 0) {
+        while (n > 0) {
             cnt++;
             n = n - cnt;
-            if(n % cnt == 0){
+            if (n % cnt == 0) {
                 answer++;
             }
         }

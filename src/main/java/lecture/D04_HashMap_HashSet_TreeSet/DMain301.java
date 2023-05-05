@@ -3,13 +3,14 @@ package lecture.D04_HashMap_HashSet_TreeSet;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
+
 //★★
 //ㅇㅇ
 public class DMain301 {
-    public ArrayList<Integer> solution(int n, int k, int[] arr){
+    public ArrayList<Integer> solution(int n, int k, int[] arr) {
         ArrayList<Integer> answer = new ArrayList<>();
         HashMap<Integer, Integer> HM = new HashMap<>();
-        for(int i = 0; i < k - 1; i++){ // k - 1일 전 까지 세팅을 해놓고
+        for (int i = 0; i < k - 1; i++) { // k - 1일 전 까지 세팅을 해놓고
             HM.put(arr[i], HM.getOrDefault(arr[i], 0) + 1);
         }
         int lt = 0;
@@ -31,10 +32,10 @@ public class DMain301 {
         int n = kb.nextInt();
         int k = kb.nextInt();
         int[] arr = new int[n];
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = kb.nextInt();
         }
-        for (int x : T.solution(n, k, arr)){
+        for (int x : T.solution(n, k, arr)) {
             System.out.print(x + " ");
         }
     }
