@@ -2,12 +2,14 @@ package lecture.E05_Stack_Queue;
 
 import java.io.IOException;
 import java.util.*;
+
 //★★
 //ㅇㅇ
 public class EMain801 {
     private class Person {
         int id;
         int priority;
+
         public Person(int id, int priority) {
             this.id = id;
             this.priority = priority;
@@ -31,7 +33,7 @@ public class EMain801 {
             }
             if (tmp != null) {
                 answer++;
-                if (tmp.id == k){
+                if (tmp.id == k) {
                     return answer;
                 }
             }
