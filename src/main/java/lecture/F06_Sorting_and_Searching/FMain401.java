@@ -1,14 +1,15 @@
 package lecture.F06_Sorting_and_Searching;
 
 import java.util.Scanner;
+
 //★★
 //ㅇㅇ
 public class FMain401 {
-    public int[] solution(int size, int n, int[] arr){
+    public int[] solution(int size, int n, int[] arr) {
         int[] cache = new int[size];
-        for (int x : arr){
+        for (int x : arr) {
             int pos = -1;
-            for (int i = 0; i < size; i++){
+            for (int i = 0; i < size; i++) {
                 if (x == cache[i]) {
                     pos = i;
                 }
@@ -33,10 +34,10 @@ public class FMain401 {
         int s = kb.nextInt();
         int n = kb.nextInt();
         int[] arr = new int[n];
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = kb.nextInt();
         }
-        for (int x : T.solution(s, n, arr)){
+        for (int x : T.solution(s, n, arr)) {
             System.out.print(x + " ");
         }
     }
