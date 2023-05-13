@@ -1,9 +1,11 @@
 package lecture.G07_Recursive_Tree_Graph;
+
 import java.util.*;
+
 //★
 //ㅇㅇ
-public class GMain701{
-    private static class Node{
+public class GMain701 {
+    private static class Node {
         int data;
         Node lt, rt;
 
@@ -15,20 +17,20 @@ public class GMain701{
 
     private Node root;
 
-    public void BFS(Node root){
+    public void BFS(Node root) {
         Queue<Node> Q = new LinkedList<>();
         Q.offer(root);  // Q.offer(add) 도 가능
         int L = 0;
-        while(!Q.isEmpty()){
+        while (!Q.isEmpty()) {
             int len = Q.size();
             System.out.print(L + " : ");
-            for(int i = 0; i < len; i++){
+            for (int i = 0; i < len; i++) {
                 Node cur = Q.poll();
                 System.out.print(cur.data + " ");
-                if(cur.lt != null) {
+                if (cur.lt != null) {
                     Q.offer(cur.lt);
                 }
-                if(cur.rt != null){
+                if (cur.rt != null) {
                     Q.offer(cur.rt);
                 }
             }

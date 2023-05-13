@@ -1,10 +1,12 @@
 package lecture.G07_Recursive_Tree_Graph;
+
 //★
 //ㅇㅇ
 class GMain601 {
     static int n;
     static int[] ch;
-    public void DFS(int L){
+
+    public void DFS(int L) {
         if (L == n + 1) {
             String tmp = "";
             for (int i = 1; i <= n; i++) {
@@ -23,7 +25,7 @@ class GMain601 {
         }
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         GMain601 T = new GMain601();
         n = 3;
         ch = new int[n + 1];

@@ -2,11 +2,11 @@ package lecture.G07_Recursive_Tree_Graph;
 
 //ㅇ
 public class GMain301 {
-    public int DFS(int n){
-        if (n == 1){
+    public int DFS(int n) {
+        if (n == 1) {
             return 1;
         } else {
-            return n * DFS(n-1);
+            return n * DFS(n - 1);
         }
     }
 

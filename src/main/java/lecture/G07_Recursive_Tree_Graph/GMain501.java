@@ -3,11 +3,12 @@ package lecture.G07_Recursive_Tree_Graph;
 //ㅇ
 class GMain501 {
     private static class Node {
-         int data;
-         Node lt, rt;
-         Node(int val) {
-             data = val;
-             lt = rt = null;
+        int data;
+        Node lt, rt;
+
+        Node(int val) {
+            data = val;
+            lt = rt = null;
         }
     }
 

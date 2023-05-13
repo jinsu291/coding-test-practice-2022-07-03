@@ -1,15 +1,18 @@
 package lecture.F06_Sorting_and_Searching;
 
 import java.util.*;
+
 //★
 //ㅇㅇ
 public class FMain701 {
-    private static class Point implements Comparable<Point>{
+    private static class Point implements Comparable<Point> {
         int x, y;
+
         public Point(int x, int y) {
             this.x = x;
             this.y = y;
         }
+
         @Override
         public int compareTo(Point o) {
             if (this.x == o.x) {

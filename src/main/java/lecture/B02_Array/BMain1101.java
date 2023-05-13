@@ -1,23 +1,24 @@
 package lecture.B02_Array;
 
 import java.util.Scanner;
+
 //★★
 //ㅇㅇ
 public class BMain1101 {
-    public int solution(int n, int[][] arr){
+    public int solution(int n, int[][] arr) {
         int answer = 0, max = 0;
-        for (int i = 1; i <=n; i++) {
+        for (int i = 1; i <= n; i++) {
             int cnt = 0;
-            for (int j = 1; j <= n; j++){
+            for (int j = 1; j <= n; j++) {
                 // j는 i말고 다른 사람 그런데 같이 넣어도 상관없음 어짜피 수가 아니고 가장작은 번호 출력이라서
-                for (int k = 1; k <= 5; k++){  // k는 학년
-                    if (arr[i][k] == arr[j][k]){
+                for (int k = 1; k <= 5; k++) {  // k는 학년
+                    if (arr[i][k] == arr[j][k]) {
                         cnt++;
                         break; // break: 해야 답이 나온다.
                     }
                 }
             }
-            if (cnt > max){
+            if (cnt > max) {
                 max = cnt;
                 answer = i;
             }
