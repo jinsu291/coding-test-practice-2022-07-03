@@ -19,7 +19,6 @@ public class BMain302 {
         for (int i = 0; i < n; i++) {
             b[i] = Integer.parseInt(st.nextToken());
         }
-        String answer = "";
         for (int i = 0; i < n; i++) {
             if (a[i] == b[i]) {
                 System.out.println("D");
