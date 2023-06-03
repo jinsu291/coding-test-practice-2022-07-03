@@ -17,6 +17,7 @@ class HMain302 {
         }
         if (L == n) {
             answer = Math.max(answer, sum);
+
         } else {
             DFS(L + 1, sum + ps[L], time + pt[L], ps, pt);
             DFS(L + 1, sum, time, ps, pt);
